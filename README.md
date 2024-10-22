@@ -6,4 +6,4 @@
 
 <p>Projeto simples e prático com JavaScript puro, junto HTML e CSS, para patricar as manipulações DOM que o JavaScript pode fazer</p>
 
-<h3>Link: do Deploy: https://tasks-javascript.netlify.app</h3>
+<h3>Link do Deploy: https://tasks-javascript.netlify.app</h3>

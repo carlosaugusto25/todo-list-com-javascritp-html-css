@@ -85,3 +85,67 @@ main {
         cursor: pointer;
     }
 }
+
+#create-todo-section {
+    width: 100%;
+}
+
+#create-todo-form {
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.input-description {
+    height: 3.2rem;
+    width: 100%;
+    font-size: 1.6rem;
+    border-radius: .4rem;
+    margin-right: .4rem;
+    outline: 0;
+    border: 1px solid #646464;
+    padding: 0 1.2rem;
+}
+
+.add-task-btn {
+    box-sizing: border-box;
+    height: 3.6rem;
+    width: 3.6rem;
+    color: #fff;
+    background: #8f49e7;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    font-size: 2.4rem;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+.remove-done-tasks-btn {
+    box-sizing: border-box;
+    height: 3.6rem;
+    color: #fff;
+    background: #8f49e7;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+    padding: 0 1.6rem;
+    transition: .3s ease-in-out;
+
+    &:hover {
+        opacity: .7;
+    }
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    align-items: center;
+}
